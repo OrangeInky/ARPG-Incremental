@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARPG Incremental</title>
+</head>
+<body onload="begin()" class = "border">
+    <div id = "switchTabs" class="switchTabs">
+    <span class="tabs" onclick="tab('Character')">Character</span>
+    <span class="tabs" onclick="tab('Setting')">Setting</span>
+    <span class="tabs" onclick="tab('World')">World</span>
+    <span class="tabs" onclick="tab('Tab 4')">Tab 4</span>
+    </div>
+    <div id = "Character">
+        <span id="printCharacter"></span>
+    </div>
+    <div id = "Setting">    
+    </div>
+    <div id = "World" >
+        <div id="worldContainer" style="zoom: 0.5; margin: auto;">
+            <canvas id="wrldCvs"  class="border"></canvas>
+        </div>
+    </div>
+    <div id = "Tab 4"></div>
+<link rel="stylesheet" href="ARPG.css">
+<script src="main.js"></script>
+</body>
+</html>

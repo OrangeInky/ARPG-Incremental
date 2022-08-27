@@ -1,0 +1,20 @@
+.tabs {
+    background-color: teal;
+    border: 2px solid;
+    font-weight: bold;
+    font-family: monospace;
+    display:inline;
+    zoom: 2;
+}
+.border {
+    width: auto;
+    height: 647px;
+    border: 5px solid orange;
+    margin: auto;
+}
+.switchTabs {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-left: 35%
+}
