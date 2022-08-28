@@ -18,3 +18,6 @@
     justify-items: center;
     margin-left: 35%
 }
+.wrldBorder {
+    border: 5px solid orange;
+}
